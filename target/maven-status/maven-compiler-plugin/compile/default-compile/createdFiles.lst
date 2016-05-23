@@ -1,0 +1,5 @@
+com\kaishengit\pojo\Movie.class
+com\kaishengit\service\MovieService.class
+com\kaishengit\pojo\Actor.class
+com\kaishengit\dao\MovieDao.class
+com\kaishengit\action\MovieAction.class

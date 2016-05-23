@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ehcache>
+    <!--如果内存不足，存放到硬盘，当前操作系统的当前用户的临时目录-->
+    <!--缓存中最大允许保存对象的数量-->
+    <!--缓存中数据是否为常量-->
+    <diskStore path="java.io.tmpdir"/>
+    <!--缓存中最大允许保存对象的数量-->
+    <!--缓存中数据是否为常量-->
+    <!--缓存数据钝化时间，秒；多久没有被使用就被释放-->
+    <!--缓存数据生存时间，秒；钝化时间不能大于生存时间-->
+    <!--内存不足时，是否使用磁盘存储-->
+    <defaultCache
+        maxElementsInMemory="10000"
+        eternal="false"
+        TimeToIdleSeconds="120"
+        TimeToLiveSeconds="120"
+        overflowToDisk="true"
+    />
+</ehcache>
